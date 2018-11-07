@@ -1,0 +1,30 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: grey;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mapContainer {
+  width: 40%;
+  padding-top: 2em;
+  padding-left: 2em;
+  background-color: #e6f5ff;
+}
+
+.parkContainer {
+  position: absolute;
+     top: 80px;
+     right: 0;
+     width: 200px;
+     height: 100px;
+     border: 3px solid #73AD21;
+  background-color: #e6f5ff;
+}
